@@ -4,6 +4,7 @@ import AbsenIndex from '../views/absen/Index.vue'
 import ProfilIndex from '../views/mahasiswa/Profil.vue'
 import Editmhs from '../views/mahasiswa/Editmhs.vue'
 import Absen from '../views/absen/Absen.vue'
+import Jadwal from '../views/jadwal/Index.vue'
 
 const routes = [
   {
@@ -28,9 +29,14 @@ const routes = [
   },
   {
     path: '/',
-    name: 'Absen',
-    component: AbsenIndexs
+    name: 'AbsenIndex',
+    component: AbsenIndexS
   },
+  {
+    path: '/',
+    name: 'Jadwal',
+    component: Jadwal
+  }
 
 ]
 
